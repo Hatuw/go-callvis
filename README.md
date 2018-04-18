@@ -85,11 +85,13 @@ Represents   | Style
 #### Requirements
 
 - [Go](https://golang.org/dl/) 1.8+
+- [go dep](https://github.com/golang/dep)
 - [Graphviz](http://www.graphviz.org/download/)
 
 ### Installation
 
 ```sh
+curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sudo -E sh
 go get -u github.com/TrueFurby/go-callvis
 cd $GOPATH/src/github.com/TrueFurby/go-callvis && make
 ```
